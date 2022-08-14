@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>html info</title>
+</head>
+<body>
+<form>
+    <input class="favorite styled" type="button"  value="Add to favorites">
+    <fieldset>
+        <legend>Choose your monster's features:</legend>
+
+        <div>
+            <input type="checkbox" id="scales" name="scales"
+                   checked>
+            <label for="scales">Scales</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="horns" name="horns">
+            <label for="horns">Horns</label>
+        </div>
+    </fieldset>
+    <p>Choose your monster's colors:</p>
+
+    <div>
+        <input type="color" id="head" name="head"
+               value="#e66465">
+        <label for="head">Head</label>
+    </div>
+
+    <div>
+        <input type="color" id="body" name="body"
+               value="#f6b73c">
+        <label for="body">Body</label>
+    </div>
+
+    <label for="email">Enter your globex.com email:</label>
+
+    <input type="email" id="email"
+           pattern=".+@globex\.com" size="30" required>
+    <label for="start">Start date:</label>
+
+    <input type="date" id="start" name="trip-start"
+           value="2022-07-22"
+           min="2022-01-01" max="2023-12-31">
+    <label for="avatar">Choose a profile picture:</label>
+    <input type="file"
+           id="avatar" name="avatar"
+           accept="image/png, image/jpeg">
+</form>
+</body>
+</html>
